@@ -14,12 +14,9 @@
 	"libVersion": "1.9.4",
 	"appid": "wx7dc591c0f91ad17f",
 	"projectname": "%E5%81%9C%E8%BD%A6%E5%9C%BA%E6%B5%8B%E8%AF%951",
-	"svr": "",
-	"client": "",
-	"qcloudRoot": "",
-	"miniprogramRoot": "",
-	"pluginRoot": "",
 	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/index_fail/index_fail",
     "pages/logs/logs",
@@ -15,7 +15,7 @@
     "pages/w_my_bind_member/w_my_bind_member",
     "pages/w_my_businessman_coupon/w_my_businessman_coupon"
   ],
-  "window":{
+  "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#3e3f42",
     "navigationBarTitleText": "日照华润万象汇停车场",
@@ -23,7 +23,7 @@
     "backgroundColor": "#ffffff"
   },
   "tabBar": {
-    "color":"white",
+    "color": "white",
     "backgroundColor": "#3e3f42",
     "selectedColor": "#ffb900",
     "borderStyle": "black",
@@ -42,7 +42,8 @@
       }
     ]
   },
-  "networkTimeout":{
-    "request":15000
-  }
+  "networkTimeout": {
+    "request": 15000
+  },
+  "sitemapLocation": "sitemap.json"
 }
