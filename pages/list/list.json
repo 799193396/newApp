@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "筛选",
+  "usingComponents": {
+    "v-goods-sort": "/components/goods-sort/goods-sort"
+  }
+}

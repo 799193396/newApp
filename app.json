@@ -13,12 +13,13 @@
     "pages/w_my_car/w_my_car",
     "pages/w_my_park_coupon/w_my_park_coupon",
     "pages/w_my_bind_member/w_my_bind_member",
-    "pages/w_my_businessman_coupon/w_my_businessman_coupon"
+    "pages/w_my_businessman_coupon/w_my_businessman_coupon",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#3e3f42",
-    "navigationBarTitleText": "日照华润万象汇停车场",
+    "navigationBarTitleText": "郑州二七广场停车场",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#ffffff"
   },
@@ -33,6 +34,12 @@
         "text": "订单缴费",
         "iconPath": "images/ico_home.png",
         "selectedIconPath": "images/ico_home1.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "筛选",
+        "iconPath": "images/ico_shaixuan.png",
+        "selectedIconPath": "images/ico_shaixuan1.png"
       },
       {
         "pagePath": "pages/w_my/w_my",

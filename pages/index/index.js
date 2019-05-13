@@ -17,7 +17,7 @@ Page({
     circular: true, //从data开始的值到此是轮播
     hasUserInfo: false, //是否已授权
     canIUse: wx.canIUse('button.open-type.getUserInfo'), //判断是否可用
-    member: false, //是否是会员
+    member: true, //是否是会员
     member_tel: "", //会员手机号,默认无
     member_dengji: "", //会员等级，默认无
     show: "", //卷码扫描值

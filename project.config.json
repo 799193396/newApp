@@ -11,8 +11,8 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.4",
-	"appid": "wx7dc591c0f91ad17f",
+	"libVersion": "2.6.6",
+	"appid": "wx5beca244ced909cd",
 	"projectname": "%E5%81%9C%E8%BD%A6%E5%9C%BA%E6%B5%8B%E8%AF%951",
 	"scripts": {},
 	"simulatorType": "wechat",
@@ -34,7 +34,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 10,
 			"list": [
 				{
 					"id": 0,
@@ -95,6 +95,12 @@
 					"name": "加载失败提示",
 					"pathName": "pages/index_fail/index_fail",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "筛选",
+					"pathName": "pages/list/list",
+					"scene": null
 				}
 			]
 		}

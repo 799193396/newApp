@@ -32,22 +32,6 @@
       </view>
     </view>
   </block>
-  <!-- 下拉菜单 -->
-
-  <view class="sort" bindtap="changeBoxBtn" data-num="0">
-    全部
-    <image src="../../images/down.png" style="width:8px;height:8px;"></image>
-  </view>
-  <view class="sort" bindtap="changeBoxBtn" data-num="1"> 附近
-    <image src="../../images/down.png" style="width:9px;height:9px;"></image>
-  </view>
-  <view class="sort" bindtap="changeBoxBtn" data-num="2"> 智能排序
-    <image src="../../images/down.png" style="width:9px;height:9px;"></image>
-  </view>
-  <view class="sort" bindtap="changeBoxBtn" data-num="3">
-    筛选
-    <image src="../../images/down.png" style="width:9px;height:9px;"></image>
-  </view>
   <!-- 下拉页面 -->
   <!-- 全部 -->
   <view class="all-sort-list {{states==0?'all-act':''}}">

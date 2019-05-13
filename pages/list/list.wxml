@@ -1,0 +1,10 @@
+<!--pages/list/list.wxml-->
+<!-- loading -->
+<loading hidden='{{!loading}}'>
+  加载中...
+</loading>
+<!--顶部固定fixed-->
+<view class='top' id='sortHeight'>
+  <!--排序-->
+  <v-goods-sort bind:click='onTapSort'></v-goods-sort>
+</view>

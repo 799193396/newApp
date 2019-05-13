@@ -1,0 +1,90 @@
+/* components/goods-sort/goods-sort.wxss */
+@import "theme.wxss";
+.sort-wrap {
+  margin-top: 10rpx;
+  display: flex;
+  width: 100%;
+  height: 88rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  /* border-bottom: 1px solid #e6e6e5; */
+  align-items: center;
+  font-size: 28rpx;
+  font-family: 'PingFang SC';
+  line-height: 1;
+}
+
+.sort-item {
+  padding: 30rpx 0;
+  flex: 1;
+  color: #848583;
+  text-align: center;
+  position: relative;
+}
+
+.sort-item.ac {
+  /* color: #dd392d; */
+}
+
+.sort-item:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  bottom: 0px;
+  width: 1px;
+  border-left: 1px solid #d9d9d9;
+  color: #d9d9d9;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}
+
+.sort-item:first-child:before {
+  display: none;
+}
+
+.sort-item-type {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 100%;
+}
+
+.sort-item-type:before, .sort-item-type:after {
+  content: '';
+  position: absolute;
+  left: 2px;
+  width: 0;
+  height: 0;
+  z-index: 3;
+  top: 50%;
+}
+
+.sort-item-type:before {
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 4px solid #848583;
+  margin-top: -5px;
+}
+
+.sort-item-type:after {
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid #848583;
+  margin-top: 1px;
+}
+
+/* .sort-item.ac .sort-item-type:after {
+  border-top: 4px solid #DD392D;
+}
+
+.sort-item.ac .down.sort-item-type:before {
+  border-bottom: 4px solid #DD392D;
+} */
+
+.sort-item.ac .down.sort-item-type:after {
+  border-top: 4px solid #848583;
+}

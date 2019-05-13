@@ -1,0 +1,12 @@
+/* pages/list/list.wxss */
+page {
+  background-color: #ececec;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  background-color: #efeff4;
+}

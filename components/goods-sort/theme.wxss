@@ -1,0 +1,901 @@
+/* 第二套 */
+.theme2 .theme-colorA,.theme2 .theme-bottomborderA,.theme2.ezr-tag,.theme2 .buy-btn-1,.theme2 .style1 .group-top-tab.ac .group-tab-item,.theme2 .navbar-item.ac{
+    color: #333333;
+}
+.theme2 .theme-backgroundA,.theme2 .theme-bottomborderA::after,.theme2 .style1 .group-top-tab.ac::after,.theme2 .logistics-item:first-child .circle,.theme2 .goods-plus,.theme2 .goods-minus::after{
+    background-color: #333333;
+}
+.theme2 .theme-borderA::after,.theme2 .theme-borderA::before,.theme2.ezr-tag::after,.theme2 .goods-minus,.theme2 .goods-plus{
+    border-color: #333333;
+}
+.theme2 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #333333;
+}
+.theme2 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #333333;
+}
+.theme2.primary-delta::before{
+    border-top: 8rpx solid #333333;
+}
+.theme2 .navbar-item.ac:after{
+    border-bottom: 3px solid #333333;
+}
+.theme2 .theme-borderA{
+    color: #333333;
+    border-color: #333333;
+}
+.theme2 .themeB{
+    background-color: #999999;
+}
+.theme2 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme2 .theme-AC,.theme2.primary,.theme2.primary-delta,.theme2 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme2 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.theme2 .theme-CA{
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.theme2 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #333333;
+    background-color: #333333;
+}
+.theme2 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #333333;
+}
+.theme2 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme2.themeDE{
+    background: linear-gradient(#333333, #333333);
+    color: #FFFFFF;
+}
+.theme2 .themeDE-C,.theme2 .buy-btn-4{
+    background: linear-gradient(to right, #333333, #333333);
+    color: #FFFFFF;
+}
+.theme2 .themeF{
+    background-color: #F9F9F9;
+}
+.theme2 .theme-GC{
+    background-color: #39AF28;
+    color: #FFFFFF;
+}
+.theme2 .theme-CG{
+    background-color: #FFFFFF;
+    color: #39AF28;
+}
+.theme2 .theme-HG{
+    background-color: #CDEBC9;
+    color: #39AF28;
+}
+.theme2 .themeIJ{
+    background: linear-gradient(to right, #333333, #333333);
+    color: #FFFFFF;
+}
+
+
+
+/* 第三套 */
+.theme3 .theme-colorA,.theme3 .theme-bottomborderA,.theme3.ezr-tag,.theme3 .buy-btn-1,.theme3 .style1 .group-top-tab.ac .group-tab-item,.theme3 .navbar-item.ac{
+    color: #CE9622;
+}
+.theme3 .theme-backgroundA,.theme3 .theme-bottomborderA::after,.theme3 .style1 .group-top-tab.ac::after,.theme3 .logistics-item:first-child .circle,.theme3 .goods-plus,.theme3 .goods-minus::after{
+    background-color: #CE9622;
+}
+.theme3 .theme-borderA::after,.theme3 .theme-borderA::before,.theme3.ezr-tag::after,.theme3 .goods-minus,.theme3 .goods-plus{
+    border-color: #CE9622;
+}
+.theme3 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #CE9622;
+}
+.theme3 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #CE9622;
+}
+.theme3.primary-delta::before{
+    border-top: 8rpx solid #CE9622;
+}
+.theme3 .navbar-item.ac:after{
+    border-bottom: 3px solid #CE9622;
+}
+.theme3 .theme-borderA{
+    color: #CE9622;
+    border-color: #CE9622;
+}
+.theme3 .themeB{
+    background-color: #21201E;
+}
+.theme3 .theme-borderC{
+    border-color: #333333;
+}
+.theme3 .theme-AC,.theme3.primary,.theme3.primary-delta,.theme3 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme3 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #CE9622;
+    color: #333333;
+}
+.theme3 .theme-CA{
+    background-color: #333333;
+    color: #CE9622;
+}
+.theme3 .theme-3AC{
+    color: #333333;
+    border-color: #CE9622;
+    background-color: #CE9622;
+}
+.theme3 .theme-two-3AC{
+    color: #333333;
+    border-color: #333333;
+    background-color: #CE9622;
+}
+.theme3 .theme-backgroundC{
+    background-color: #333333;
+}
+.theme3.themeDE{
+    background: linear-gradient(#E5AA2F, #C2870D);
+    color: #333333;
+}
+.theme3 .themeDE-C,.theme3 .buy-btn-4{
+    background: linear-gradient(to right, #E5AA2F, #C2870D);
+    color: #333333;
+}
+.theme3 .themeF{
+    background-color: #DCCAA6;
+}
+.theme3 .theme-GC{
+    background-color: #39AF28;
+    color: #FFFFFF;
+}
+.theme3 .theme-CG{
+    background-color: #FFFFFF;
+    color: #39AF28;
+}
+.theme3 .theme-HG{
+    background-color: #CDEBC9;
+    color: #39AF28;
+}
+.theme3 .themeIJ{
+    background: linear-gradient(to right, #E5AA2F, #C2870D);
+    color: #333333;
+}
+
+
+/* 第四套 */
+.theme4 .theme-colorA,.theme4 .theme-bottomborderA,.theme4.ezr-tag,.theme4 .buy-btn-1,.theme4 .style1 .group-top-tab.ac .group-tab-item,.theme4 .navbar-item.ac{
+    color: #C2A669;
+}
+.theme4 .theme-backgroundA,.theme4 .theme-bottomborderA::after,.theme4 .style1 .group-top-tab.ac::after,.theme4 .logistics-item:first-child .circle,.theme4 .goods-plus,.theme4 .goods-minus::after{
+    background-color: #C2A669;
+}
+.theme4 .theme-borderA::after,.theme4 .theme-borderA::before,.theme4.ezr-tag::after,.theme4 .goods-minus,.theme4 .goods-plus{
+    border-color: #C2A669;
+}
+.theme4 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #C2A669;
+}
+.theme4 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #C2A669;
+}
+.theme4.primary-delta::before{
+    border-top: 8rpx solid #C2A669;
+}
+.theme4 .navbar-item.ac:after{
+    border-bottom: 3px solid #C2A669;
+}
+.theme4 .theme-borderA{
+    color: #C2A669;
+    border-color: #C2A669;
+}
+.theme4 .themeB{
+    background-color: #333333;
+}
+.theme4 .theme-borderC{
+    border-color: #21201E;
+}
+.theme4 .theme-AC,.theme4.primary,.theme4.primary-delta,.theme4 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme4 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #C2A669;
+    color: #21201E;
+}
+.theme4 .theme-CA{
+    background-color: #21201E;
+    color: #C2A669;
+}
+.theme4 .theme-3AC{
+    color: #21201E;
+    border-color: #C2A669;
+    background-color: #C2A669;
+}
+.theme4 .theme-two-3AC{
+    color: #21201E;
+    border-color: #21201E;
+    background-color: #C2A669;
+}
+.theme4 .theme-backgroundC{
+    background-color: #21201E;
+}
+.theme4.themeDE{
+    background: linear-gradient(#D7BA7C, #B19453);
+    color: #21201E;
+}
+.theme4 .themeDE-C,.theme4 .buy-btn-4{
+    background: linear-gradient(to right, #D7BA7C, #B19453);
+    color: #21201E;
+}
+.theme4 .themeF{
+    background-color: #D5C4A0;
+}
+.theme4 .theme-GC{
+    background-color: #39AF28;
+    color: #FFFFFF;
+}
+.theme4 .theme-CG{
+    background-color: #FFFFFF;
+    color: #39AF28;
+}
+.theme4 .theme-HG{
+    background-color: #CDEBC9;
+    color: #39AF28;
+}
+.theme4 .themeIJ{
+    background: linear-gradient(to right, #D7BA7C, #B19453);
+    color: #21201E;
+}
+
+
+/* 第五套（默认主题） */
+.theme5 .theme-colorA,.theme5 .theme-bottomborderA,.theme5.ezr-tag,.theme5 .buy-btn-1,.theme5 .style1 .group-top-tab.ac .group-tab-item,.theme5 .navbar-item.ac{
+    color: #DD392D;
+}
+.theme5 .theme-backgroundA,.theme5 .theme-bottomborderA::after,.theme5 .style1 .group-top-tab.ac::after,.theme5 .logistics-item:first-child .circle,.theme5 .goods-plus,.theme5 .goods-minus::after{
+    background-color: #DD392D;
+}
+.theme5 .theme-borderA::after,.theme5 .theme-borderA::before,.theme5.ezr-tag::after,.theme5 .goods-minus,.theme5 .goods-plus{
+    border-color: #DD392D;
+}
+.theme5 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #DD392D;
+}
+.theme5 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #DD392D;
+}
+.theme5.primary-delta::before{
+    border-top: 8rpx solid #DD392D;
+}
+.theme5 .navbar-item.ac:after{
+    border-bottom: 3px solid #DD392D;
+}
+.theme5 .theme-borderA{
+    color: #DD392D;
+    border-color: #DD392D;
+}
+.theme5 .themeB{
+    background-color: #333333;
+}
+.theme5 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme5 .theme-AC,.theme5.primary,.theme5.primary-delta,.theme5 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme5 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #DD392D;
+    color: #FFFFFF;
+}
+.theme5 .theme-CA{
+    background-color: #FFFFFF;
+    color: #DD392D;
+}
+.theme5 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #DD392D;
+    background-color: #DD392D;
+}
+.theme5 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #DD392D;
+}
+.theme5 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme5.themeDE{
+    background: linear-gradient(#DD392D, #DD392D);
+    color: #FFFFFF;
+}
+.theme5 .themeDE-C,.theme5 .buy-btn-4{
+    background: linear-gradient(to right, #DD392D, #DD392D);
+    color: #FFFFFF;
+}
+.theme5 .themeF{
+    background-color: #FEEFEE;
+}
+.theme5 .theme-GC{
+    background-color: #39AF28;
+    color: #FFFFFF;
+}
+.theme5 .theme-CG{
+    background-color: #FFFFFF;
+    color: #39AF28;
+}
+.theme5 .theme-HG{
+    background-color: #CDEBC9;
+    color: #39AF28;
+}
+.theme5 .themeIJ{
+    background: linear-gradient(to right, #EA7419, #DE3F2B);
+    color: #FFFFFF;
+}
+
+
+/* 第六套 */
+.theme6 .theme-colorA,.theme6 .theme-bottomborderA,.theme6.ezr-tag,.theme6 .buy-btn-1,.theme6 .style1 .group-top-tab.ac .group-tab-item,.theme6 .navbar-item.ac{
+    color: #FC4549;
+}
+.theme6 .theme-backgroundA,.theme6 .theme-bottomborderA::after,.theme6 .style1 .group-top-tab.ac::after,.theme6 .logistics-item:first-child .circle,.theme6 .goods-plus,.theme6 .goods-minus::after{
+    background-color: #FC4549;
+}
+.theme6 .theme-borderA::after,.theme6 .theme-borderA::before,.theme6.ezr-tag::after,.theme6 .goods-minus,.theme6 .goods-plus{
+    border-color: #FC4549;
+}
+.theme6 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #FC4549;
+}
+.theme6 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #FC4549;
+}
+.theme6.primary-delta::before{
+    border-top: 8rpx solid #FC4549;
+}
+.theme6 .navbar-item.ac:after{
+    border-bottom: 3px solid #FC4549;
+}
+.theme6 .theme-borderA{
+    color: #FC4549;
+    border-color: #FC4549;
+}
+.theme6 .themeB{
+    background-color: #333333;
+}
+.theme6 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme6 .theme-AC,.theme6.primary,.theme6.primary-delta,.theme6 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme6 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #FC4549;
+    color: #FFFFFF;
+}
+.theme6 .theme-CA{
+    background-color: #FFFFFF;
+    color: #FC4549;
+}
+.theme6 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #FC4549;
+    background-color: #FC4549;
+}
+.theme6 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #FC4549;
+}
+.theme6 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme6.themeDE{
+    background: linear-gradient(#FC4549, #FC4549);
+    color: #FFFFFF;
+}
+.theme6 .themeDE-C,.theme6 .buy-btn-4{
+    background: linear-gradient(to right, #FC4549, #FC4549);
+    color: #FFFFFF;
+}
+.theme6 .themeF{
+    background-color: #FEEFEE;
+}
+.theme6 .theme-GC{
+    background-color: #39AF28;
+    color: #FFFFFF;
+}
+.theme6 .theme-CG{
+    background-color: #FFFFFF;
+    color: #39AF28;
+}
+.theme6 .theme-HG{
+    background-color: #CDEBC9;
+    color: #39AF28;
+}
+.theme6 .themeIJ{
+    background: linear-gradient(to right, #FC4549, #FC4549);
+    color: #FFFFFF;
+}
+
+
+/* 第七套 */
+.theme7 .theme-colorA,.theme7 .theme-bottomborderA,.theme7.ezr-tag,.theme7 .buy-btn-1,.theme7 .style1 .group-top-tab.ac .group-tab-item,.theme7 .navbar-item.ac{
+    color: #ED008C;
+}
+.theme7 .theme-backgroundA,.theme7 .theme-bottomborderA::after,.theme7 .style1 .group-top-tab.ac::after,.theme7 .logistics-item:first-child .circle,.theme7 .goods-plus,.theme7 .goods-minus::after{
+    background-color: #ED008C;
+}
+.theme7 .theme-borderA::after,.theme7 .theme-borderA::before,.theme7.ezr-tag::after,.theme7 .goods-minus,.theme7 .goods-plus{
+    border-color: #ED008C;
+}
+.theme7 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #ED008C;
+}
+.theme7 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #ED008C;
+}
+.theme7.primary-delta::before{
+    border-top: 8rpx solid #ED008C;
+}
+.theme7 .navbar-item.ac:after{
+    border-bottom: 3px solid #ED008C;
+}
+.theme7 .theme-borderA{
+    color: #ED008C;
+    border-color: #ED008C;
+}
+.theme7 .themeB{
+    background-color: #333333;
+}
+.theme7 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme7 .theme-AC,.theme7.primary,.theme7.primary-delta,.theme7 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme7 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #ED008C;
+    color: #FFFFFF;
+}
+.theme7 .theme-CA{
+    background-color: #FFFFFF;
+    color: #ED008C;
+}
+.theme7 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #ED008C;
+    background-color: #ED008C;
+}
+.theme7 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #ED008C;
+}
+.theme7 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme7.themeDE{
+    background: linear-gradient(#ED008C, #FF917B);
+    color: #FFFFFF;
+}
+.theme7 .themeDE-C,.theme7 .buy-btn-4{
+    background: linear-gradient(to right, #ED008C, #FF917B);
+    color: #FFFFFF;
+}
+.theme7 .themeF{
+    background-color: #FEEFEE;
+}
+.theme7 .theme-GC{
+    background-color: #39AF28;
+    color: #FFFFFF;
+}
+.theme7 .theme-CG{
+    background-color: #FFFFFF;
+    color: #39AF28;
+}
+.theme7 .theme-HG{
+    background-color: #CDEBC9;
+    color: #39AF28;
+}
+.theme7 .themeIJ{
+    background: linear-gradient(to right, #ED008C, #FF917B);
+    color: #FFFFFF;
+}
+
+
+/* 第八套 */
+.theme8 .theme-colorA,.theme8 .theme-bottomborderA,.theme8.ezr-tag,.theme8 .buy-btn-1,.theme8 .style1 .group-top-tab.ac .group-tab-item,.theme8 .navbar-item.ac{
+    color: #FD9226;
+}
+.theme8 .theme-backgroundA,.theme8 .theme-bottomborderA::after,.theme8 .style1 .group-top-tab.ac::after,.theme8 .logistics-item:first-child .circle,.theme8 .goods-plus,.theme8 .goods-minus::after{
+    background-color: #FD9226;
+}
+.theme8 .theme-borderA::after,.theme8 .theme-borderA::before,.theme8.ezr-tag::after,.theme8 .goods-minus,.theme8 .goods-plus{
+    border-color: #FD9226;
+}
+.theme8 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #FD9226;
+}
+.theme8 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #FD9226;
+}
+.theme8.primary-delta::before{
+    border-top: 8rpx solid #FD9226;
+}
+.theme8 .navbar-item.ac:after{
+    border-bottom: 3px solid #FD9226;
+}
+.theme8 .theme-borderA{
+    color: #FD9226;
+    border-color: #FD9226;
+}
+.theme8 .themeB{
+    background-color: #333333;
+}
+.theme8 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme8 .theme-AC,.theme8.primary,.theme8.primary-delta,.theme8 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme8 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #FD9226;
+    color: #FFFFFF;
+}
+.theme8 .theme-CA{
+    background-color: #FFFFFF;
+    color: #FD9226;
+}
+.theme8 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #FD9226;
+    background-color: #FD9226;
+}
+.theme8 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #FD9226;
+}
+.theme8 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme8.themeDE{
+    background: linear-gradient(#FD9226, #FD9226);
+    color: #FFFFFF;
+}
+.theme8 .themeDE-C,.theme8 .buy-btn-4{
+    background: linear-gradient(to right, #FD9226, #FD9226);
+    color: #FFFFFF;
+}
+.theme8 .themeF{
+    background-color: #FFEFDE;
+}
+.theme8 .theme-GC{
+    background-color: #39AF28;
+    color: #FFFFFF;
+}
+.theme8 .theme-CG{
+    background-color: #FFFFFF;
+    color: #39AF28;
+}
+.theme8 .theme-HG{
+    background-color: #CDEBC9;
+    color: #39AF28;
+}
+.theme8 .themeIJ{
+    background: linear-gradient(to right, #FD9226, #FD9226);
+    color: #FFFFFF;
+}
+
+
+/* 第九套 */
+.theme9 .theme-colorA,.theme9 .theme-bottomborderA,.theme9.ezr-tag,.theme9 .buy-btn-1,.theme9 .style1 .group-top-tab.ac .group-tab-item,.theme9 .navbar-item.ac{
+    color: #00A698;
+}
+.theme9 .theme-backgroundA,.theme9 .theme-bottomborderA::after,.theme9 .style1 .group-top-tab.ac::after,.theme9 .logistics-item:first-child .circle,.theme9 .goods-plus,.theme9 .goods-minus::after{
+    background-color: #00A698;
+}
+.theme9 .theme-borderA::after,.theme9 .theme-borderA::before,.theme9.ezr-tag::after,.theme9 .goods-minus,.theme9 .goods-plus{
+    border-color: #00A698;
+}
+.theme9 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #00A698;
+}
+.theme9 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #00A698;
+}
+.theme9.primary-delta::before{
+    border-top: 8rpx solid #00A698;
+}
+.theme9 .navbar-item.ac:after{
+    border-bottom: 3px solid #00A698;
+}
+.theme9 .theme-borderA{
+    color: #00A698;
+    border-color: #00A698;
+}
+.theme9 .themeB{
+    background-color: #333333;
+}
+.theme9 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme9 .theme-AC,.theme9.primary,.theme9.primary-delta,.theme9 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme9 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #00A698;
+    color: #FFFFFF;
+}
+.theme9 .theme-CA{
+    background-color: #FFFFFF;
+    color: #00A698;
+}
+.theme9 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #00A698;
+    background-color: #00A698;
+}
+.theme9 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #00A698;
+}
+.theme9 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme9.themeDE{
+    background: linear-gradient(#00A698, #00A698);
+    color: #FFFFFF;
+}
+.theme9 .themeDE-C,.theme9 .buy-btn-4{
+    background: linear-gradient(to right, #00A698, #00A698);
+    color: #FFFFFF;
+}
+.theme9 .themeF{
+    background-color: #E6F7F6;
+}
+.theme9 .theme-GC{
+    background-color: #FCC42C;
+    color: #FFFFFF;
+}
+.theme9 .theme-CG{
+    background-color: #FFFFFF;
+    color: #FCC42C;
+}
+.theme9 .theme-HG{
+    background-color: #FEEDBF;
+    color: #FCC42C;
+}
+.theme9 .themeIJ{
+    background: linear-gradient(to right, #00A698, #00A698);
+    color: #FFFFFF;
+}
+
+
+/* 第十套 */
+.theme10 .theme-colorA,.theme10 .theme-bottomborderA,.theme10.ezr-tag,.theme10 .buy-btn-1,.theme10 .style1 .group-top-tab.ac .group-tab-item,.theme10 .navbar-item.ac{
+    color: #09BB05;
+}
+.theme10 .theme-backgroundA,.theme10 .theme-bottomborderA::after,.theme10 .style1 .group-top-tab.ac::after,.theme10 .logistics-item:first-child .circle,.theme10 .goods-plus,.theme10 .goods-minus::after{
+    background-color: #09BB05;
+}
+.theme10 .theme-borderA::after,.theme10 .theme-borderA::before,.theme10.ezr-tag::after,.theme10 .goods-minus,.theme10 .goods-plus{
+    border-color: #09BB05;
+}
+.theme10 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #09BB05;
+}
+.theme10 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #09BB05;
+}
+.theme10.primary-delta::before{
+    border-top: 8rpx solid #09BB05;
+}
+.theme10 .navbar-item.ac:after{
+    border-bottom: 3px solid #09BB05;
+}
+.theme10 .theme-borderA{
+    color: #09BB05;
+    border-color: #09BB05;
+}
+.theme10 .themeB{
+    background-color: #333333;
+}
+.theme10 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme10 .theme-AC,.theme10.primary,.theme10.primary-delta,.theme10 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme10 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #09BB05;
+    color: #FFFFFF;
+}
+.theme10 .theme-CA{
+    background-color: #FFFFFF;
+    color: #09BB05;
+}
+.theme10 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #09BB05;
+    background-color: #09BB05;
+}
+.theme10 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #09BB05;
+}
+.theme10 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme10.themeDE{
+    background: linear-gradient(#09BB05, #09BB05);
+    color: #FFFFFF;
+}
+.theme10 .themeDE-C,.theme10 .buy-btn-4{
+    background: linear-gradient(to right, #09BB05, #09BB05);
+    color: #FFFFFF;
+}
+.theme10 .themeF{
+    background-color: #E6F7E6;
+}
+.theme10 .theme-GC{
+    background-color: #FCC42C;
+    color: #FFFFFF;
+}
+.theme10 .theme-CG{
+    background-color: #FFFFFF;
+    color: #FCC42C;
+}
+.theme10 .theme-HG{
+    background-color: #FEEDBF;
+    color: #FCC42C;
+}
+.theme10 .themeIJ{
+    background: linear-gradient(to right, #09BB05, #09BB05);
+    color: #FFFFFF;
+}
+
+
+/* 第十一套 */
+.theme11 .theme-colorA,.theme11 .theme-bottomborderA,.theme11.ezr-tag,.theme11 .buy-btn-1,.theme11 .style1 .group-top-tab.ac .group-tab-item,.theme11 .navbar-item.ac{
+    color: #64BF72;
+}
+.theme11 .theme-backgroundA,.theme11 .theme-bottomborderA::after,.theme11 .style1 .group-top-tab.ac::after,.theme11 .logistics-item:first-child .circle,.theme11 .goods-plus,.theme11 .goods-minus::after{
+    background-color: #64BF72;
+}
+.theme11 .theme-borderA::after,.theme11 .theme-borderA::before,.theme11.ezr-tag::after,.theme11 .goods-minus,.theme11 .goods-plus{
+    border-color: #64BF72;
+}
+.theme11 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #64BF72;
+}
+.theme11 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #64BF72;
+}
+.theme11.primary-delta::before{
+    border-top: 8rpx solid #64BF72;
+}
+.theme11 .navbar-item.ac:after{
+    border-bottom: 3px solid #64BF72;
+}
+.theme11 .theme-borderA{
+    color: #64BF72;
+    border-color: #64BF72;
+}
+.theme11 .themeB{
+    background-color: #333333;
+}
+.theme11 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme11 .theme-AC,.theme11.primary,.theme11.primary-delta,.theme11 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme11 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #64BF72;
+    color: #FFFFFF;
+}
+.theme11 .theme-CA{
+    background-color: #FFFFFF;
+    color: #64BF72;
+}
+.theme11 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #64BF72;
+    background-color: #64BF72;
+}
+.theme11 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #64BF72;
+}
+.theme11 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme11.themeDE{
+    background: linear-gradient(#64BF72, #64BF72);
+    color: #FFFFFF;
+}
+.theme11 .themeDE-C,.theme11 .buy-btn-4{
+    background: linear-gradient(to right, #64BF72, #64BF72);
+    color: #FFFFFF;
+}
+.theme11 .themeF{
+    background-color: #EAF9ED;
+}
+.theme11 .theme-GC{
+    background-color: #FCC42C;
+    color: #FFFFFF;
+}
+.theme11 .theme-CG{
+    background-color: #FFFFFF;
+    color: #FCC42C;
+}
+.theme11 .theme-HG{
+    background-color: #FEEDBF;
+    color: #FCC42C;
+}
+.theme11 .themeIJ{
+    background: linear-gradient(to right, #64BF72, #64BF72);
+    color: #FFFFFF;
+}
+
+
+/* 第十二套 */
+.theme12 .theme-colorA,.theme12 .theme-bottomborderA,.theme12.ezr-tag,.theme12 .buy-btn-1,.theme12 .style1 .group-top-tab.ac .group-tab-item,.theme12 .navbar-item.ac{
+    color: #8754FB;
+}
+.theme12 .theme-backgroundA,.theme12 .theme-bottomborderA::after,.theme12 .style1 .group-top-tab.ac::after,.theme12 .logistics-item:first-child .circle,.theme12 .goods-plus,.theme12 .goods-minus::after{
+    background-color: #8754FB;
+}
+.theme12 .theme-borderA::after,.theme12 .theme-borderA::before,.theme12.ezr-tag::after,.theme12 .goods-minus,.theme12 .goods-plus{
+    border-color: #8754FB;
+}
+.theme12 .sort-item.ac .sort-item-type:after {
+    border-top: 4px solid #8754FB;
+}
+.theme12 .sort-item.ac .down.sort-item-type:before {
+    border-bottom: 4px solid #8754FB;
+}
+.theme12.primary-delta::before{
+    border-top: 8rpx solid #8754FB;
+}
+.theme12 .navbar-item.ac:after{
+    border-bottom: 3px solid #8754FB;
+}
+.theme12 .theme-borderA{
+    color: #8754FB;
+    border-color: #8754FB;
+}
+.theme12 .themeB{
+    background-color: #333333;
+}
+.theme12 .theme-borderC{
+    border-color: #FFFFFF;
+}
+.theme12 .theme-AC,.theme12.primary,.theme12.primary-delta,.theme12 .buy-btn-2,.buy-btn-3,.buy-btn-4,.theme12 .style2 .group-top-tab.ac .group-tab-item{
+    background-color: #8754FB;
+    color: #FFFFFF;
+}
+.theme12 .theme-CA{
+    background-color: #FFFFFF;
+    color: #8754FB;
+}
+.theme12 .theme-3AC{
+    color: #FFFFFF;
+    border-color: #8754FB;
+    background-color: #8754FB;
+}
+.theme12 .theme-two-3AC{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #8754FB;
+}
+.theme12 .theme-backgroundC{
+    background-color: #FFFFFF;
+}
+.theme12.themeDE{
+    background: linear-gradient(#8754FB, #8754FB);
+    color: #FFFFFF;
+}
+.theme12 .themeDE-C,.theme12 .buy-btn-4{
+    background: linear-gradient(to right, #8754FB, #8754FB);
+    color: #FFFFFF;
+}
+.theme12 .themeF{
+    background-color: #ECE5FC;
+}
+.theme12 .theme-GC{
+    background-color: #FCC42C;
+    color: #FFFFFF;
+}
+.theme12 .theme-CG{
+    background-color: #FFFFFF;
+    color: #FCC42C;
+}
+.theme12 .theme-HG{
+    background-color: #FEEDBF;
+    color: #FCC42C;
+}
+.theme12 .themeIJ{
+    background: linear-gradient(to right, #8754FB, #8754FB);
+    color: #FFFFFF;
+}

@@ -1,0 +1,18 @@
+<!--components/goods-sort/goods-sort.wxml-->
+<view class="sort-wrap theme{{styleCfg}}">
+  <view class="sort-item {{currentSort==0?'ac theme-colorA':''}}" data-index="0" data-sort="distance" bindtap="tapSort">
+    <text>距离</text>
+    <view class="sort-item-type {{sortAsc==true?'down':''}}"></view>
+  </view>
+  <view class="sort-item {{currentSort==1?'ac theme-colorA':''}}" data-index="1" data-sort="price" bindtap="tapSort">
+    <text>价格</text>
+    <view class="sort-item-type {{sortAsc==true?'down':''}}"></view>
+  </view>
+  <view class="sort-item {{currentSort==2?'ac theme-colorA':''}}" data-index="2" data-sort="reserve" bindtap="tapSort">
+    <text>当前可预约</text>
+  </view>
+  <view class="sort-item {{currentSort==3?'ac theme-colorA':''}}" data-index="3" data-sort="time" bindtap="tapSort">
+    <text>时间</text>
+  </view>
+
+</view>
