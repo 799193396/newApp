@@ -14,7 +14,8 @@
     "pages/w_my_park_coupon/w_my_park_coupon",
     "pages/w_my_bind_member/w_my_bind_member",
     "pages/w_my_businessman_coupon/w_my_businessman_coupon",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/reserve/reserve"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,6 +1,6 @@
 <!--pages/bindplatenumber/bindplatenumber.wxml-->
 <view class='logo'>
-  <image class='img-logo' src='/images/logo.png'></image>
+  <image class='img-logo' src='/images/xxLogo.png'></image>
 </view>
 <view class='bind-info'>
   <!-- <view class="bind-title">  

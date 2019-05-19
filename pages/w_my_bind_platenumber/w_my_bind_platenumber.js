@@ -86,18 +86,19 @@ Page({
       })
       //向服务器发出绑定请求
       wx.request({
-        url: app.globalData.host + '/wxinfo/bindCarnumber',
+        url: 'https://www.easy-mock.com/mock/5ca5b04b6338725a02e6ad94/example/car/create',
         data: {
           carnumber: t,
+          userId:'1'
         },
         header: {
           'content-type': 'application/json',
-          'Cookie': 'NWRZPARKINGID=' + app.globalData.loginMess
         },
+        method:'POST',
         success: function (res) {
           wx.hideLoading()
           console.log(res)
-          if ((parseInt(res.statusCode) === 200) && res.data.code === 1001) {
+          if (res.data.result) {
             wx.navigateTo({
               url: "/pages/w_my_bind_prompt/w_my_bind_prompt"
             })

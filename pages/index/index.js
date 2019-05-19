@@ -25,12 +25,13 @@ Page({
     showModalStatus: false, //搜索面板显示，默认隐藏
     search_result: null, //搜索结果
     keyboardShow: null, //搜索车牌的值
+    keyValue:'',    //关键字查询
   },
   onLoad: function(options) {
     var that = this
-    this.setData({
-      simpleKeyboard: this.selectComponent("#simpleKeyboard"), //获取传值
-    })
+    // this.setData({
+    //   simpleKeyboard: this.selectComponent("#simpleKeyboard"), //获取传值
+    // })
     // 此处判断是否是会员--https://www.jianshu.com/p/aaf65625fc9d
     if (app.globalData.member) {
       this.setData({
@@ -40,9 +41,9 @@ Page({
     } else {
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
-      app.memberReadyCallback = res => {
-        that.shuju();
-      }
+      // app.memberReadyCallback = res => {
+      //   that.shuju();
+      // }
     }
 
   },
@@ -56,57 +57,45 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function() {
-    this.shuju(); //每次进入时数据渲染
+    // this.shuju(); //每次进入时数据渲染
   },
 
+  bindKeyInput: function (e) { //input事件
+    let para = {};
+    para[e.target.dataset.value] = e.detail.value;
+    this.setData(para);
+  },
   // 搜索查询
-  toSearch: function(e) {
-    this.data.simpleKeyboard.hide()
-    var o = this.data.simpleKeyboard.getContent()
-    let data;
-    let localStorageValue = [];
-    var that = this;
-    if (o != '' && o.length >= 4) {
+  toSearch: function() {
+    // this.data.simpleKeyboard.hide()
+    // var o = this.data.simpleKeyboard.getContent()
+    // let data;
+    // let localStorageValue = [];
+    let that = this;
+    console.log(that.data.keyValue)
+    let o = that.data.keyValue
+    if (o !== '') {
       //调用API从本地缓存中获取数据  
       // var searchData = wx.getStorageSync('searchData') || []
       // searchData.push(this.data.inputValue)
       // wx.setStorageSync('searchData', searchData)
 
-
       wx.request({
-        url: app.globalData.host + '/wxpay/getparkingbykeyword', //这里填写后台给你的搜索接口  
+        url:  'https://www.easy-mock.com/mock/5ca5b04b6338725a02e6ad94/example/parking/info/find/key', //这里填写后台给你的搜索接口  
         data: {
-          keyword: o
+          key: o
         },
         header: {
           'content-type': 'application/json',
-          'Cookie': 'NWRZPARKINGID=' + app.globalData.loginMess
         },
+        method: 'GET',
         success: function(res) {
           console.log(res)
-          if (res.data.code === 1200) {
-            wx.showModal({
-              title: "提示",
-              content: "" + res.data.msg,
-              confirmColor: "#4fafc9",
-              confirmText: "我知道了",
-              showCancel: false,
-              success: function(res) {
-                if (res.confirm) {}
-              }
-            })
-          } else {
-            if (res.data.code === 1001) {
-              for (var i = 0; i < res.data.data.data.length; i++) {
-                var str = res.data.data.data[i].carnumber;
-                var str2 = str.substring(0, 2) + "·" + str.substring(2);
-                res.data.data.data[i].carnumber = str2;
-              }
+          if (res.data.result == true) {
               that.setData({
-                search_result: res.data.data.data,
+                search_result: res.data.data,
               });
               that.showModal()
-              console.log(that.data.search_result)
             } else {
               wx.showModal({
                 title: "搜索提示",
@@ -119,7 +108,6 @@ Page({
                 }
               })
             }
-          }
         },
         fail: function(e) {
           wx.showToast({
@@ -131,7 +119,7 @@ Page({
     } else {
       wx.showModal({
         title: "无法查询",
-        content: "查询值不能为空或长度低于4位",
+        content: "请输入查询关键字",
         confirmColor: "#4fafc9",
         confirmText: "我知道了",
         showCancel: false,
@@ -356,5 +344,14 @@ Page({
         states: states
       })
     },
+
+  //预约   2019.5.19 legend 新增
+  goReserve: function (e) {
+    console.log(e.currentTarget.dataset.id)
+    var str = e.currentTarget.dataset.id
+      wx.navigateTo({
+        url: "/pages/reserve/reserve?title=" + str
+      })
+  },
   
 })

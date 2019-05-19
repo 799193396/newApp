@@ -1,0 +1,74 @@
+<!--pages/reserve/reserve.wxml-->
+<view class='page'>
+    <!-- <button type='primary' bindtap='payment'>支付测试</button>
+    <view > 车牌为{{title}} </view>   -->
+
+    <!--背景图  -->
+    <view class='pay-bg'>
+
+      <!-- 车辆详情 -->
+      <view class='car_info'>
+        <!-- 停车区域 -->
+        <text class='car-info-area'>{{reserveResult.name}}</text>
+        <!-- 车牌号和照片 -->
+        <view class='car-info-np'>
+          <text class='car-info-number'>{{reserveResult.address}}</text>
+        </view>
+        <!-- 入场时间和停车时长 -->
+        <view class='car-info-rs'>
+          <view class='car-info-ruchangtime'>开始时间：
+            <text class='car-info-ruchangdate'>{{reserveResult.startTime}}</text>
+          </view>
+          <view class='car-info-stoptime'>截止时间：
+            <text>{{reserveResult.endTime}}</text>
+          </view>
+          <view class='car-info-stoptime'>车位数量：
+            <text>{{reserveResult.orderNum}}</text>
+          </view>
+        </view>
+      </view>
+
+      <!-- 左右半圆 -->
+      <view class='circle-left'></view>
+      <view class='circle-right'></view>
+
+      <!-- 停车初始费用 -->
+      <view class='start-pay-info'>
+        <text class='start-pay-info-desc'>停车费</text>
+        <text class='start-pay-info-number'>¥ {{reserveResult.minFee}}</text>
+      </view>
+      <view class='m-p-i'>
+          <view class='coupon-pay-info'>
+            <text class='coupon-pay-info-desc'>车辆种类</text>
+            <view class="item2"> 
+              <picker bindchange="bindCarTypeChange" value="{{index}}" range="{{carType}}">
+                <view class="picker">{{carType[index]}}</view>
+              </picker>
+              <image  class="with_arrow" src="/images/right.png"></image>
+            </view>
+          </view>
+      </view>
+       <view class='m-p-i'>
+          <view class='coupon-pay-info'>
+            <text class='coupon-pay-info-desc'>预约时间</text>
+            <view class="item2"> 
+              <picker mode="date" value="{{date}}" start="1990-01-01" end="2100-12-30" bindchange="bindDateChange">
+                <view class="picker">{{date}}</view>
+              </picker>
+              <image  class="with_arrow" src="/images/right.png"></image>
+            </view>
+          </view>
+      </view>
+      <!-- 会员积分 -->    
+      <view class="memberjifen-pay-info {{showHeight?'m-height':''}}"></view>
+
+      <!-- 进行付款 -->
+      <view class='pay-info'>
+        <view class='pay-info-desc'>合计：
+          <text class='pay-info-number-biao'>¥</text>
+          <text class='pay-info-number'>{{reserveResult.minFee}}</text>
+          <button class='pay'>立即预约</button>
+        </view >
+      </view>
+    </view>
+</view>

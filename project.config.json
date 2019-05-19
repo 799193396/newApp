@@ -8,11 +8,13 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.6",
-	"appid": "wx5beca244ced909cd",
+	"libVersion": "2.7.0",
+	"appid": "wx06a2c0a57b377217",
 	"projectname": "%E5%81%9C%E8%BD%A6%E5%9C%BA%E6%B5%8B%E8%AF%951",
 	"scripts": {},
 	"simulatorType": "wechat",
@@ -34,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 10,
+			"current": 11,
 			"list": [
 				{
 					"id": 0,
@@ -100,6 +102,13 @@
 					"id": -1,
 					"name": "筛选",
 					"pathName": "pages/list/list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "预约车位",
+					"pathName": "pages/reserve/reserve",
 					"scene": null
 				}
 			]

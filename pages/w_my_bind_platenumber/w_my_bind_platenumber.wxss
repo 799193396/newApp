@@ -5,11 +5,12 @@
   height:310rpx;
   box-sizing: border-box;
   padding-top: 76rpx;
+  background: #164481;
 }
 .logo image{
   display: block;
-  width: 420rpx;
-  height: 160rpx;
+  width: 300px;
+  height: 60px;
   margin-left: auto;
   margin-right: auto;
 }
